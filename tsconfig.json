@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "module": "Node12",
+    "lib": ["ES7"]
+  }
+}
