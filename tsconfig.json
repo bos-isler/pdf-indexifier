@@ -1,7 +1,15 @@
 {
   "compilerOptions": {
+    "outDir": "./lib",
     "downlevelIteration": true,
+    "declaration": true,
+    "esModuleInterop": true,
     "module": "Node12",
-    "lib": ["ES7"]
+    "lib": ["ES7"],
+    "rootDir": "./"
+  },
+  "include": ["src"],
+  "typeAcquisition": {
+    "enable": true
   }
 }

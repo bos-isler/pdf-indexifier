@@ -1,12 +1,25 @@
 {
-  "name": "pdf-indexer",
+  "name": "pdf-indexifier",
+  "version": "0.0.1",
   "main": "src/main.ts",
-  "scripts": {},
+  "author": {
+    "name": "iGoodie",
+    "email": "igoodie@programmer.net"
+  },
+  "bin": {
+    "pdf-indexify": "lib/cli.js"
+  },
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "license": "ISC",
   "dependencies": {
+    "commander": "^8.3.0",
     "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.10",
-    "@types/pdf-parse": "^1.1.1"
+    "@types/pdf-parse": "^1.1.1",
+    "typescript": "^4.6.0-dev.20220118"
   }
 }
